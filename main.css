@@ -1,0 +1,117 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { 
+    height: 100%;
+}
+
+body {
+  background-color: #FFF;
+    font-size: 100%;
+    color: #494949;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+	line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; 
+}
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #00a; }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 1.15em;
+  text-align: justify;
+  width: 75%;
+  margin: 3em auto 2em;
+}
+
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+
+.site .header h1.title a {
+	font-size: 2em;
+	color: #000;
+}
+
+.site .header h1.title a:hover {
+  color: #888;
+}
+
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.site .header a.extra:hover {
+  color: #000;
+}
+
+.site .meta {
+  color: #aaa;
+}
+
+.site #home{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.site .footer {
+  font-size: 0.8em;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.site .footer .contact a {
+  color: #8085C1;
+}
+
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.site .footer .rss img {
+  border: 0;
+}
+
+

@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 100px;
+    background-color:white;
+    margin-top: -50px;
+    background-attachment: fixed;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 363px;
+   background-color: blue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+.poster{
+    margin-top: 60px;
+    border: 2px #151515 solid;
+    padding:0px;
+    max-width: 90%;
+    max-height: 80%;
+    margin-left: 4%;
+}
+
+.infobox{
+margin-top: 7px;
+}
+.schedule{
+
+    padding-left: 100px;
+  font-family: Champagne;
+  border-left: 3px solid #151515;
+  margin-top: 10px;
+  font-size: 24px;
+  height: 180px;
+ 
+}
+.schedule table tr td{
+    color:black;
+    font-size: 21px;
+}
+.schedule h3{
+   color:  #008880;
+  font-weight: bolder;
+}
+
+.infoschedule{
+    margin-top: 30px;
+    border: 3px solid #151515;
+     background: #FFFFF0;
+     min-height: 200px;
+
+   
+}
+.infobox h2{
+    font-family: Champagne;
+    color: #008880;
+    font-weight: bolder;
+}
+.infobox p{
+    font-family:Champagne;
+    font-size: 21px;
+}
+@font-face {
+    font-family: vonique;
+    src: url(fonts/Vonique.ttf);
+}
+@font-face {
+    font-family: built;
+    src: url(fonts/built.ttf);
+}
+
+@font-face {
+    font-family: Europe;
+    src: url(fonts/Europe.ttf);
+}
+
+@font-face {
+    font-family: Champagne;
+    src: url(fonts/Champagne.ttf);
+}
+
+@font-face {
+    font-family: Cocomat;
+    src: url(fonts/Cocomat.ttf);
+}
+@font-face {
+    font-family: timeline;
+    src: url(fonts/Timeline.ttf);
+}
+.problemsetter{
+    background: rgba(255,255,255,0.5);
+    height: 250px;
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 10px;
+     font-family: Champagne;
+     border: 3px solid #151515;
+     border-radius: 5%;
+}
+.setter{
+  margin: 10px;
+}
+.rules{
+  background: #FFFFF0;
+  border: 3px solid #151515;
+ 
+}
+.rules h3{
+    font-family: Champagne;
+     font-size: 28px;
+     color: black;
+
+}
+.rules ul li{
+  font-family: Champagne;
+     font-size: 20px;
+
+
+}
+
+.navstyle ul li a{
+  font-family: timeline;
+  font-size: 18px;
+  border-left: 1px solid #808080;
+}
